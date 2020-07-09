@@ -1,0 +1,33 @@
+Assignment Information:
+
+How to start:
+make sure you have node.js installed
+open command window in the the folder containig package.json
+run npm install
+run npm test <- to run tests
+run npm start <- to start the app - will be hosted on http://localhost:5000/
+
+Info:
+I know that the solution I present is not the exact solution expected by the by the assignment. 
+This is a example project where the component described in the assignment (I named ExTable -> Example Table) is a part of an app not a separate library/package. 
+I didn't managed to create it as a separate library. I have little to no experience in creating external package I only created component as a part of an app,
+and my free time was not enough to set it up as specified in the assignment. 
+
+My process:
+I tried the project via create-react-library, but problems with imports in example project created by the script (I assume due to sim-links no working ok on Windows - but could have been also other problems). 
+Pressed by time I decided to rollback and just create a simple project where the the component would be embedded so the assignment would be fulfilled in some way.
+
+What went not quite right:
+- Component is a build in component of an application not an ready to use external one. 
+- I had problems with scss loader, so i moved all the styles to  the template file. Sill works but its not an optimal solution. (I assume some small problem but I didn't find it at the time, so I proceed with solution that is working)
+
+
+What went well:
+- The component works fine like in the specs
+- test coverage of the component and reducer
+- uses a simple reducer to handle data 
+
+Notes:
+- using redux for state for this small component is a bit overkill in my opinion, local useState's would be sufficient in my opinion
+- actions use a different naming convention than the rest of the project (using '_' as separation not camel case), this is to difference them from the rest of the project especially form connect 
+actions so it's easier to navigate and know what scope we are in at the moment

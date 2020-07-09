@@ -1,0 +1,91 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Table</title>
+	<meta id="meta-description" name="description" content="Demo site for table">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    html {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #262626;
+      font-size: 16px;
+    }
+
+    .content {
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .table {
+      width: 100%;
+      box-shadow: 1px 1px 1px 0px rgba(200,200,200,1);
+      border-radius: 5px;
+      border-spacing: 0;
+      border-top: solid 1px #dedede;
+      border-left: solid 1px #dedede;
+    }
+
+    .table td {
+      padding: 10px 15px;
+      background-color: #fefefe;
+      border: solid 1px #dedede;
+      border-top: 0;
+      border-left: 0;
+    }
+
+    .table thead td:first-child {
+      border-top-left-radius: 5px;
+    }
+
+    .table thead td:last-child {
+      border-top-right-radius: 5px;
+    }
+
+    .table tbody tr:last-child td:first-child {
+      border-bottom-left-radius: 5px;
+    }
+
+    .table tbody tr:last-child td:last-child {
+      border-bottom-right-radius: 5px;
+    }
+
+    .table tr:nth-child(odd) td {
+      background-color: #e4e4e4;
+    }
+
+    .table thead:first-child tr td {
+      background-color: #fefefe;
+    }
+
+    .empty-table {
+      text-align: center;
+      border-radius: 5px;
+      padding: 20px;
+      background-color: #e4e4e4;
+      border: solid 1px #dedede;
+    }
+
+    input {
+      border-radius: 5px;
+      border: solid 1px #dedede;
+      width: 100%;
+      padding: 10px 15px;
+      margin-bottom: 10px;
+      transition: box-shadow 0.2s;
+      font-size: 20px;
+      box-sizing: border-box;
+    }
+
+    input:focus {
+      border: solid 1px #dedede;
+      box-shadow: 1px 1px 5px 0px rgba(138,138,138,1);
+      outline: none;
+    }
+  </style>
+</head>
+<body>
+	<div id="tableApp" class="body-height"></div>
+</body>
+</html>

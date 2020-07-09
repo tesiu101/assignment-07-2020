@@ -1,0 +1,52 @@
+{
+  "name": "table-react",
+  "version": "1.0.0",
+  "description": "test exercise",
+  "dependencies": {
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "eslint": "^7.4.0",
+    "immutability-helper": "^3.1.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-redux": "7.2.0",
+    "react-test-renderer": "^16.13.1",
+    "redux": "^3.5.2",
+    "shortid": "^2.2.15",
+    "underscore": "1.8.3"
+  },
+  "devDependencies": {
+    "@babel/core": "7.10.4",
+    "@babel/plugin-transform-runtime": "7.10.4",
+    "@babel/polyfill": "7.10.4",
+    "@babel/preset-env": "7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "@babel/runtime": "7.10.4",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "8.1.0",
+    "copy-webpack-plugin": "4.6.0",
+    "css-loader": "3.6.0",
+    "html-webpack-plugin": "3.2.0",
+    "jest": "26.1.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "4.14.0",
+    "prop-types": "15.7.2",
+    "redux-devtools": "3.5.0",
+    "redux-devtools-dock-monitor": "1.1.3",
+    "redux-devtools-log-monitor": "1.4.0",
+    "sass-loader": "9.0.2",
+    "webpack": "^4.36.0",
+    "webpack-cli": "^3.3.10",
+    "webpack-dashboard": "3.2.0",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --config ./table.web/webpack.dev.config.js --inline --hot --port 5000",
+    "test": "jest"
+  },
+  "browserslist": "> 0.25%, not dead",
+  "author": "Adam Barabasz",
+  "licence": "MIT",
+  "license": "ISC",
+  "repository": "not today"
+}

@@ -1,0 +1,9 @@
+// .prettierrc
+{
+  "printWidth": 180,
+  "parser": "flow",
+  "tabWidth": 2,
+  "singleQuote": true,
+  "useTabs": false,
+  "arrowParens": "avoid"
+}
